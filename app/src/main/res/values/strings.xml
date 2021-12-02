@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="textName">Имя</string>
+    <string name="textName3">Отчество</string>
+    <string name="textName2">Фамилия</string>
+    <string name="textYear">Год</string>
+    <string name="textCity">Город</string>
+    <string name="textSchool">Школа</string>
+    <string name="textProgXP">Опыт программирования</string>
+    <string name="textProgKnowledge">Знание языков программирования</string>
+    <string name="textNice">✓</string>
+    <string name="textCheckBox">Java</string>
+    <string name="textCheckBox2">Python</string>
+    <string name="textCheckBox34">C++</string>
+</resources>

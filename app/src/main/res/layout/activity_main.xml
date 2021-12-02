@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="732dp"
+        android:layout_height="411dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/textName1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textName2"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textName2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textName"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textName3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textName3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textYear"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textYear"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textCity"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textCity"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textSchool"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/textSchool"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textProgXP"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/textProgXP"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textProgKnowledge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/textProgKnowledge"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="13sp"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/textNice"
+                android:textColor="#689F38"
+                android:textSize="34sp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBox3"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="@string/textCheckBox" />
+
+                <CheckBox
+                    android:id="@+id/checkBox4"
+                    android:layout_width="49dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textCheckBox2" />
+
+                <CheckBox
+                    android:id="@+id/checkBox5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/textCheckBox34" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <CalendarView
+            android:id="@+id/calendarView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
